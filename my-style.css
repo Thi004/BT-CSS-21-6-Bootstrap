@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+[class^="col-"] img {
+    width: 100%;
+    height: 300px;
+}
+
+[class^="col-"] a {
+    color: blue;
+}
+
+[class^="col-"] h5 {
+    color: blue;
+}
+[class^="col-"] .footer {
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.70);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+[class^="col-"] .nav-link {
+    align-items: end;
+    justify-content: end;
+}
